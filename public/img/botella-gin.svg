@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#F1EDE6"/>
+  <line x1="0" y1="440" x2="400" y2="440" stroke="#E4DFD7"/>
+  <ellipse cx="200" cy="440" rx="74" ry="6" fill="#E4DFD7"/>
+  <rect x="180" y="70" width="40" height="40" fill="#2B3A3A"/>
+  <path d="M186 110h28v26c42 10 56 30 56 60v236a8 8 0 0 1-8 8H138a8 8 0 0 1-8-8V196c0-30 14-50 56-60z" fill="#D9E3DF" stroke="#B9C7C2" stroke-width="1.5"/>
+  <rect x="150" y="250" width="100" height="128" fill="#FBF9F5" stroke="#2B3A3A" stroke-width="1"/>
+  <text x="200" y="300" font-family="Georgia, serif" font-size="22" fill="#181615" text-anchor="middle">Gin</text>
+  <line x1="172" y1="316" x2="228" y2="316" stroke="#2B3A3A" stroke-width="1.5"/>
+  <text x="200" y="340" font-family="Georgia, serif" font-size="9" letter-spacing="2" fill="#5E5A54" text-anchor="middle">PATAGONIA</text>
+  <text x="200" y="358" font-family="Georgia, serif" font-size="9" letter-spacing="2" fill="#5E5A54" text-anchor="middle">42% VOL</text>
+</svg>

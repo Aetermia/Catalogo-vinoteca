@@ -1,0 +1,5 @@
+# Bloquea el acceso web directo a archivos internos del backend.
+<FilesMatch "^(config|config\.example|db|cors|auth|helpers|create_admin)\.php$|\.(sql|md)$">
+  Require all denied
+</FilesMatch>
+Options -Indexes

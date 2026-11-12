@@ -1,0 +1,14 @@
+.gate { min-height: 100vh; display: grid; place-items: center; padding: var(--space-4); }
+.gate__panel {
+  width: 100%; max-width: 400px; padding: var(--space-6) var(--space-5);
+  background: var(--color-surface); border: var(--border); border-top: 3px solid var(--color-accent); border-radius: var(--radius-card);
+}
+.gate__title { margin-top: var(--space-2); font-size: var(--fs-xl); }
+.gate__mode { display: flex; align-items: center; gap: var(--space-2); margin: var(--space-3) 0 var(--space-5); font-size: var(--fs-xs); color: var(--color-ink-soft); }
+.gate__dot { width: 8px; height: 8px; border-radius: var(--radius-pill); background: var(--color-saving); flex: none; }
+.gate__dot.is-demo { background: #B7791F; }
+.gate__form { display: grid; gap: var(--space-4); margin-top: var(--space-4); }
+.gate__divider { display: flex; align-items: center; gap: var(--space-3); font-size: var(--fs-xs); color: var(--color-ink-faint); }
+.gate__divider::before, .gate__divider::after { content: ''; flex: 1; border-top: var(--border); }
+.gate__back { display: inline-flex; align-items: center; gap: var(--space-2); margin-top: var(--space-5); font-size: var(--fs-sm); color: var(--color-ink-soft); text-decoration: none; }
+.gate__back:hover { color: var(--color-ink); }

@@ -1,0 +1,61 @@
+/* Tokens de diseño — paleta editorial de cava.
+   Para adaptar la plantilla a otro cliente, en general alcanza con editar este archivo
+   y src/data/config.js. */
+:root {
+  /* Superficies */
+  --color-bg: #F8F6F2;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F1EDE6;
+
+  /* Texto */
+  --color-ink: #181615;
+  --color-ink-soft: #5E5A54;
+  --color-ink-faint: #8C877F;
+
+  /* Líneas */
+  --color-border: #E4DFD7;
+  --color-border-strong: #CFC8BD;
+
+  /* Acentos */
+  --color-accent: #5E1924;
+  --color-accent-hover: #4A121C;
+  --color-accent-soft: #F3E9EA;
+  --color-saving: #1B5E20;
+  --color-saving-soft: #E8F1E8;
+  --color-danger: #9B1C1C;
+
+  /* Tipografía */
+  --font-display: 'Cormorant Garamond', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.875rem;
+  --fs-2xl: clamp(2.25rem, 5vw, 3.5rem);
+
+  /* Espaciado */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 72px;
+
+  /* Forma */
+  --radius: 2px;
+  --radius-card: 4px;
+  --radius-pill: 999px;
+  --border: 1px solid var(--color-border);
+
+  /* Elevación mínima (solo para capas flotantes) */
+  --shadow-layer: 0 1px 0 rgba(24, 22, 21, 0.04), 0 8px 24px rgba(24, 22, 21, 0.08);
+
+  --container: 1240px;
+  --header-h: 64px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

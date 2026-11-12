@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <rect width="400" height="500" fill="#F1EDE6"/>
+  <line x1="0" y1="440" x2="400" y2="440" stroke="#E4DFD7"/>
+  <g fill="#2A0F14">
+    <path d="M118 120h16v40c0 8 14 14 14 30v60h-44v-60c0-16 14-22 14-30z"/>
+    <path d="M168 110h16v40c0 8 14 14 14 30v70h-44v-70c0-16 14-22 14-30z"/>
+    <path d="M218 110h16v40c0 8 14 14 14 30v70h-44v-70c0-16 14-22 14-30z"/>
+    <path d="M268 120h16v40c0 8 14 14 14 30v60h-44v-60c0-16 14-22 14-30z"/>
+  </g>
+  <path d="M80 230h240v210H80z" fill="#C8A97E"/>
+  <path d="M80 230l30-24h180l30 24z" fill="#D9BE96"/>
+  <rect x="80" y="230" width="240" height="210" fill="none" stroke="#A88A60" stroke-width="1.5"/>
+  <rect x="130" y="290" width="140" height="80" fill="#FBF9F5"/>
+  <text x="200" y="324" font-family="Georgia, serif" font-size="18" fill="#181615" text-anchor="middle">Caja x6</text>
+  <line x1="168" y1="338" x2="232" y2="338" stroke="#5E1924" stroke-width="1.5"/>
+  <text x="200" y="356" font-family="Georgia, serif" font-size="9" letter-spacing="2" fill="#5E5A54" text-anchor="middle">MALBEC SELECCIÓN</text>
+</svg>

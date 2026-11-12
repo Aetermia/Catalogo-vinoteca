@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.log
+backend/config.php
+backend/uploads/*
+!backend/uploads/.htaccess
+!backend/uploads/.gitkeep
+.env
+.env.local

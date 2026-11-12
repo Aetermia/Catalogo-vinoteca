@@ -1,0 +1,11 @@
+.wa-fab {
+  position: fixed; right: var(--space-4); bottom: var(--space-4); z-index: 20;
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  height: 44px; padding: 0 var(--space-4);
+  border: 1px solid var(--color-ink); border-radius: var(--radius-pill);
+  background: var(--color-surface); color: var(--color-ink);
+  font-size: var(--fs-sm); font-weight: 500; text-decoration: none;
+  box-shadow: var(--shadow-layer);
+}
+.wa-fab:hover { background: var(--color-ink); color: var(--color-surface); }
+@media (max-width: 479px) { .wa-fab__label { display: none; } .wa-fab { width: 44px; padding: 0; justify-content: center; } }
