@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer() {
   const year = new Date().getFullYear();
   const phone = config.whatsapp.phone;
-  const pretty = `+${phone.slice(0, 2)} ${phone.slice(2, 3)} ${phone.slice(3, 5)} ${phone.slice(5, 9)}-${phone.slice(9)}`;
+  const pretty = config.whatsapp.display || `+${phone}`;
   return (
     <footer className="footer" id="contacto">
       <div className="container footer__grid">

@@ -12,7 +12,9 @@ export const config = {
 
   // Número en formato internacional, sin "+", espacios ni guiones.
   whatsapp: {
-    phone: '5491155550123',
+    phone: '5492494367045',
+    // Cómo se muestra el número en el sitio.
+    display: '+54 9 249 436-7045',
     defaultMessage: 'Hola, quería hacer una consulta sobre la vinoteca.',
   },
 
